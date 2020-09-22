@@ -4,9 +4,8 @@
   "description": "MERN with graphql",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon index",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "start": "node index",
+    "server": "nodemon index"
   },
   "author": "Sayantan Karmakar",
   "license": "ISC",
